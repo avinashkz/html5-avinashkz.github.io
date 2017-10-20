@@ -31,5 +31,8 @@ The neural network is trained in `200 epochs` of `10 steps` each. The program is
 
 The video provided above shows the AI's first attempt and the last attempt at beating the game. As you can see in the 5th trial the AI successfully beats the game. We can also see all the five attempts made by the AI in the video below to get an idea of how quickly the AI is capable of learning.
 
+<div class = "middle"> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t76Eq51eNy8" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
