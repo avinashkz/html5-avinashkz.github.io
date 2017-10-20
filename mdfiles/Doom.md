@@ -6,6 +6,8 @@ The project was done as part of the online course [Artificial Intelligence A-Z](
 <iframe width="560" height="315" style=""src="https://www.youtube.com/embed/X_riUKeWabc" frameborder="0" allowfullscreen></iframe>
 </div>
 
+##### First and Fifth attempt my AI to play Doom.
+
 ## Test Data
 
 The images of AI playing Doom in AI GYM are obtained from the API provided by the OpenAI Gym.  The images acquired are `preprocessed` and are stored in a large array to implement `Experience Reply`. Experience Replay is randomly sampling the large pool The large pool of memory is randomly sampled and the images are fed into the neural network. The advantage of using experience replay is that it helps the network for better convergence. Another advantage is that when sampling from a large pool, the network will not forget previous learnings. This feature can also be used when the model is trained to play different levels of the game. Hence, the network will not forget how to play the first level after playing the next few levels.
@@ -25,5 +27,9 @@ The output is then fed into a `Softmax function` which will convert the Q values
 
 ## Training
 
-The neural network is trained in `200 epochs` of `10 steps` each. The program is set to terminate when the AI acquires the average reward of 1500. However, an average reward of greater than 1000 would be sufficient for the AI to beat the game. But the AI can still update itself so that it can complete the game more efficiently. The first and last attempt of the AI playing the can be viewed in the video below. The video provided will give an idea of how quickly the AI can learn.
+The neural network is trained in `200 epochs` of `10 steps` each. The program is set to terminate when the AI acquires the average reward of 1500. However, an average reward of greater than 1000 would be sufficient for the AI to beat the game. But the AI can still update itself so that it can complete the game more efficiently. The first and last attempt of the AI playing the can be viewed in the video below. 
+
+The video provided above shows the AI's first attempt and the last attempt at beating the game. As you can see in the 5th trial the AI successfully beats the game. We can also see all the five attempts made by the AI in the video below to get an idea of how quickly the AI is capable of learning.
+
+
 
